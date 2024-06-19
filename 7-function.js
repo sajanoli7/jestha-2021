@@ -9,3 +9,4 @@ function double(input){
     return output
 }
 console.log(double(100)); 
+console.log("hello sajan")
