@@ -23,8 +23,8 @@ for (let index = 0 ; index < person.length ; index++){
     console.log(`${gender=='male' ? 'mr' : 'mrs'} ${name}'s age is ${age} `)
 }
 function findMultiplication(parameter){
-    for(let startFrom=parameter.startFrom; startFrom<= parameter.endAt;startFrom++){
+    for(let startFrom=parameter.startFrom; startFrom<= parameter.endAt;startFrom++ ){
         console.log(`${parameter.number}*${startFrom}=${parameter.number*startFrom}`);
     }
 }
-findMultiplication({number:10,startFrom:11,endAt:20})
+findMultiplication({number:10,startFrom:11,endAt:30})
