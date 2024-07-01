@@ -16,7 +16,7 @@ double(numbers)
 console.log(doubledNumbers);
 
 const nepaliNames = ['Aarav', 'Aarya', 'Aasha', 'Anisha']
-users = []
+let users = []
 function fakeDatabase(){
     for ( let i = 0 ; i< nepaliNames.length ; i++){
             users.push({name:nepaliNames[i],
@@ -27,4 +27,9 @@ function fakeDatabase(){
 fakeDatabase()
 console.log(users)
 //rest operator
+function sum(num1,num2,...rest){
+    console.log({rest});
+
+}
+sum(100,200,3,4,5,6,7,8)
 
